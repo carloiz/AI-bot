@@ -82,9 +82,9 @@ def life(root):
             f=Frame(root, width=300, height=300, background="darkblue") 
             f.place(x=0, y=0)
             if gender== "Boy":
-                l2=Label(root, text=f"Is to Believe in your Self. :)\nDon't Give up,\nGod has a Big Plan for you.\nAnd you will be Surprise of that\nCheerup {guessNm}.\nYour are Handsome :)", width=30, font=('Times', 12, 'bold'), bg= 'Darkblue', fg= 'White')
+                l2=Label(root, text=f"Is to Believe in your Self. :)\nDon't Give up,\nGod has a Big Plan for you.\nAnd you will be Surprise of that\nCheerup {guessNm}.\nYou are Handsome :)", width=30, font=('Times', 12, 'bold'), bg= 'Darkblue', fg= 'White')
             elif gender =="Girl":
-                l2=Label(root, text=f"Is to Believe in your Self. :)\nDon't Give up,\nGod has a Big Plan for you.\nAnd you will be Surprise of that\nCheerup {guessNm}.\nYour are Pretty :)", width=30, font=('Times', 12, 'bold'), bg= 'Darkblue', fg= 'White')
+                l2=Label(root, text=f"Is to Believe in your Self. :)\nDon't Give up,\nGod has a Big Plan for you.\nAnd you will be Surprise of that\nCheerup {guessNm}.\nYou are Pretty :)", width=30, font=('Times', 12, 'bold'), bg= 'Darkblue', fg= 'White')
             l2.place(x=20, y=10)
             loveL = tk.Button(root, text="Ok", command=lambda: notgo_od4(root))
             loveL.configure(font=('calibri', 15, 'bold'), bg= 'lightBlue', fg= 'black', width=7)
